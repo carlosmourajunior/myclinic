@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"  # Porta do React em desenvolvimento
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_OPTIONS=--openssl-legacy-provider
+    networks:
+      - app-network

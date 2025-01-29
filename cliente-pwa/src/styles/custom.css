@@ -1,0 +1,94 @@
+body {
+  background-color: #f0e6d6; /* Cor pastel neutra */
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.custom-card {
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text strong {
+  font-size: 0.95rem;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+.bg-light {
+  background-color: #f5f5f5 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.offcanvas.bg-dark {
+  background-color: #343a40 !important;
+  height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.offcanvas-header.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.offcanvas-body.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.offcanvas-title {
+  color: #ffffff !important;
+}
+
+/* App.css */
+.offcanvas {
+  width: 100% !important;
+}
+
+.offcanvas-body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link, .nav-dropdown-item {
+  color: #ffffff !important;
+}
+
+.nav-link:hover, .nav-dropdown-item:hover {
+  color: #adb5bd !important;
+}
+
+/* Estilo para o menu lateral na visualização normal */
+.sidebar {
+  background-color: #b19cd9; /* Roxo mais claro */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  color: #ffffff;
+}
+
+.sidebar .nav-link, .sidebar .nav-dropdown-item {
+  color: #ffffff !important;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-dropdown-item:hover {
+  color: #dcdcdc !important; /* Cor que combina com o fundo */
+}
+
+.table-row-atrasado {
+  background-color: red !important;
+}
